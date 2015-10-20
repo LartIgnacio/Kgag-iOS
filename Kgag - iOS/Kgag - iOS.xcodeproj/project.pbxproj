@@ -1,0 +1,754 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		842544651BD479C3006DA6B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 842544641BD479C3006DA6B4 /* main.m */; };
+		842544681BD479C3006DA6B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 842544671BD479C3006DA6B4 /* AppDelegate.m */; };
+		8425446B1BD479C3006DA6B4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8425446A1BD479C3006DA6B4 /* ViewController.m */; };
+		8425446E1BD479C3006DA6B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8425446C1BD479C3006DA6B4 /* Main.storyboard */; };
+		842544701BD479C3006DA6B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8425446F1BD479C3006DA6B4 /* Assets.xcassets */; };
+		842544731BD479C3006DA6B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842544711BD479C3006DA6B4 /* LaunchScreen.storyboard */; };
+		8425447E1BD479C3006DA6B4 /* Kgag___iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8425447D1BD479C3006DA6B4 /* Kgag___iOSTests.m */; };
+		842544891BD479C3006DA6B4 /* Kgag___iOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 842544881BD479C3006DA6B4 /* Kgag___iOSUITests.m */; };
+		842544971BD47AD6006DA6B4 /* login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842544961BD47AD6006DA6B4 /* login.storyboard */; settings = {ASSET_TAGS = (); }; };
+		842544D01BD47D32006DA6B4 /* KGLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 842544CF1BD47D32006DA6B4 /* KGLoginViewController.m */; settings = {ASSET_TAGS = (); }; };
+		842544D31BD48655006DA6B4 /* KGRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 842544D21BD48655006DA6B4 /* KGRegisterViewController.m */; settings = {ASSET_TAGS = (); }; };
+		842544EB1BD4E04F006DA6B4 /* KGUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 842544EA1BD4E04F006DA6B4 /* KGUser.m */; settings = {ASSET_TAGS = (); }; };
+		842544F41BD4E1FB006DA6B4 /* KGAPIRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 842544ED1BD4E1FB006DA6B4 /* KGAPIRequestManager.m */; settings = {ASSET_TAGS = (); }; };
+		842544F51BD4E1FB006DA6B4 /* KGPageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 842544EF1BD4E1FB006DA6B4 /* KGPageManager.m */; settings = {ASSET_TAGS = (); }; };
+		842544F61BD4E1FB006DA6B4 /* KGURLConnectManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 842544F11BD4E1FB006DA6B4 /* KGURLConnectManager.m */; settings = {ASSET_TAGS = (); }; };
+		842544F71BD4E1FB006DA6B4 /* KGUserRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 842544F31BD4E1FB006DA6B4 /* KGUserRequestManager.m */; settings = {ASSET_TAGS = (); }; };
+		842544FC1BD4E843006DA6B4 /* KGRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 842544FB1BD4E843006DA6B4 /* KGRootViewController.m */; settings = {ASSET_TAGS = (); }; };
+		842544FF1BD4EC7C006DA6B4 /* KGTopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 842544FE1BD4EC7C006DA6B4 /* KGTopViewController.m */; settings = {ASSET_TAGS = (); }; };
+		842545021BD4ECC5006DA6B4 /* KGGagRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 842545011BD4ECC5006DA6B4 /* KGGagRequestManager.m */; settings = {ASSET_TAGS = (); }; };
+		842545051BD4ECF2006DA6B4 /* KGTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 842545041BD4ECF2006DA6B4 /* KGTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		842545081BD4ED0C006DA6B4 /* KGGag.m in Sources */ = {isa = PBXBuildFile; fileRef = 842545071BD4ED0C006DA6B4 /* KGGag.m */; settings = {ASSET_TAGS = (); }; };
+		845560311BD5C90A0068D72D /* KGGagCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8455602F1BD5C90A0068D72D /* KGGagCell.m */; settings = {ASSET_TAGS = (); }; };
+		845560321BD5C90A0068D72D /* KGGagCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 845560301BD5C90A0068D72D /* KGGagCell.xib */; settings = {ASSET_TAGS = (); }; };
+		8455603B1BD5DF340068D72D /* KGAddGagViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8455603A1BD5DF340068D72D /* KGAddGagViewController.m */; settings = {ASSET_TAGS = (); }; };
+		EB347579842F8B37CFE2A69E /* libPods-Kgag - iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2586FB7E737D58BAFAEEA2AC /* libPods-Kgag - iOS.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8425447A1BD479C3006DA6B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 842544581BD479C3006DA6B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8425445F1BD479C3006DA6B4;
+			remoteInfo = "Kgag - iOS";
+		};
+		842544851BD479C3006DA6B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 842544581BD479C3006DA6B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8425445F1BD479C3006DA6B4;
+			remoteInfo = "Kgag - iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F8908F954D2F67B341E0391 /* Pods-Kgag - iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kgag - iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-Kgag - iOS/Pods-Kgag - iOS.release.xcconfig"; sourceTree = "<group>"; };
+		2586FB7E737D58BAFAEEA2AC /* libPods-Kgag - iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Kgag - iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		842544601BD479C3006DA6B4 /* Kgag - iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kgag - iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		842544641BD479C3006DA6B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		842544661BD479C3006DA6B4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		842544671BD479C3006DA6B4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		842544691BD479C3006DA6B4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8425446A1BD479C3006DA6B4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8425446D1BD479C3006DA6B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8425446F1BD479C3006DA6B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		842544721BD479C3006DA6B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		842544741BD479C3006DA6B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		842544791BD479C3006DA6B4 /* Kgag - iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kgag - iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8425447D1BD479C3006DA6B4 /* Kgag___iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Kgag___iOSTests.m"; sourceTree = "<group>"; };
+		8425447F1BD479C3006DA6B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		842544841BD479C3006DA6B4 /* Kgag - iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kgag - iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		842544881BD479C3006DA6B4 /* Kgag___iOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Kgag___iOSUITests.m"; sourceTree = "<group>"; };
+		8425448A1BD479C3006DA6B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		842544961BD47AD6006DA6B4 /* login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = login.storyboard; sourceTree = "<group>"; };
+		842544A91BD47BDA006DA6B4 /* KGObjectKeys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGObjectKeys.h; sourceTree = "<group>"; };
+		842544AC1BD47BDA006DA6B4 /* KGPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGPrefixHeader.pch; sourceTree = "<group>"; };
+		842544CE1BD47D32006DA6B4 /* KGLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGLoginViewController.h; sourceTree = "<group>"; };
+		842544CF1BD47D32006DA6B4 /* KGLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGLoginViewController.m; sourceTree = "<group>"; };
+		842544D11BD48655006DA6B4 /* KGRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGRegisterViewController.h; sourceTree = "<group>"; };
+		842544D21BD48655006DA6B4 /* KGRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGRegisterViewController.m; sourceTree = "<group>"; };
+		842544E91BD4E04F006DA6B4 /* KGUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGUser.h; sourceTree = "<group>"; };
+		842544EA1BD4E04F006DA6B4 /* KGUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGUser.m; sourceTree = "<group>"; };
+		842544EC1BD4E1FB006DA6B4 /* KGAPIRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGAPIRequestManager.h; sourceTree = "<group>"; };
+		842544ED1BD4E1FB006DA6B4 /* KGAPIRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGAPIRequestManager.m; sourceTree = "<group>"; };
+		842544EE1BD4E1FB006DA6B4 /* KGPageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGPageManager.h; sourceTree = "<group>"; };
+		842544EF1BD4E1FB006DA6B4 /* KGPageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGPageManager.m; sourceTree = "<group>"; };
+		842544F01BD4E1FB006DA6B4 /* KGURLConnectManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGURLConnectManager.h; sourceTree = "<group>"; };
+		842544F11BD4E1FB006DA6B4 /* KGURLConnectManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGURLConnectManager.m; sourceTree = "<group>"; };
+		842544F21BD4E1FB006DA6B4 /* KGUserRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGUserRequestManager.h; sourceTree = "<group>"; };
+		842544F31BD4E1FB006DA6B4 /* KGUserRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGUserRequestManager.m; sourceTree = "<group>"; };
+		842544F91BD4E3A0006DA6B4 /* KGURLPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGURLPath.h; sourceTree = "<group>"; };
+		842544FA1BD4E843006DA6B4 /* KGRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGRootViewController.h; sourceTree = "<group>"; };
+		842544FB1BD4E843006DA6B4 /* KGRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGRootViewController.m; sourceTree = "<group>"; };
+		842544FD1BD4EC7C006DA6B4 /* KGTopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGTopViewController.h; sourceTree = "<group>"; };
+		842544FE1BD4EC7C006DA6B4 /* KGTopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGTopViewController.m; sourceTree = "<group>"; };
+		842545001BD4ECC5006DA6B4 /* KGGagRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGGagRequestManager.h; sourceTree = "<group>"; };
+		842545011BD4ECC5006DA6B4 /* KGGagRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGGagRequestManager.m; sourceTree = "<group>"; };
+		842545031BD4ECF2006DA6B4 /* KGTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGTableViewCell.h; sourceTree = "<group>"; };
+		842545041BD4ECF2006DA6B4 /* KGTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGTableViewCell.m; sourceTree = "<group>"; };
+		842545061BD4ED0C006DA6B4 /* KGGag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGGag.h; sourceTree = "<group>"; };
+		842545071BD4ED0C006DA6B4 /* KGGag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGGag.m; sourceTree = "<group>"; };
+		8455602E1BD5C90A0068D72D /* KGGagCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGGagCell.h; sourceTree = "<group>"; };
+		8455602F1BD5C90A0068D72D /* KGGagCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGGagCell.m; sourceTree = "<group>"; };
+		845560301BD5C90A0068D72D /* KGGagCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KGGagCell.xib; sourceTree = "<group>"; };
+		845560331BD5CC9D0068D72D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		845560351BD5CCB70068D72D /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		845560371BD5CCDB0068D72D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		845560391BD5DF340068D72D /* KGAddGagViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGAddGagViewController.h; sourceTree = "<group>"; };
+		8455603A1BD5DF340068D72D /* KGAddGagViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGAddGagViewController.m; sourceTree = "<group>"; };
+		F9878289265D66B0F93CEBA9 /* Pods-Kgag - iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kgag - iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Kgag - iOS/Pods-Kgag - iOS.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8425445D1BD479C3006DA6B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB347579842F8B37CFE2A69E /* libPods-Kgag - iOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		842544761BD479C3006DA6B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		842544811BD479C3006DA6B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		35550DEE7DAB3953E73AABDA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				845560371BD5CCDB0068D72D /* Foundation.framework */,
+				845560351BD5CCB70068D72D /* CoreFoundation.framework */,
+				845560331BD5CC9D0068D72D /* AVFoundation.framework */,
+				2586FB7E737D58BAFAEEA2AC /* libPods-Kgag - iOS.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		842544571BD479C3006DA6B4 = {
+			isa = PBXGroup;
+			children = (
+				842544621BD479C3006DA6B4 /* Kgag - iOS */,
+				8425447C1BD479C3006DA6B4 /* Kgag - iOSTests */,
+				842544871BD479C3006DA6B4 /* Kgag - iOSUITests */,
+				842544611BD479C3006DA6B4 /* Products */,
+				AB5AC932915AC70010242B29 /* Pods */,
+				35550DEE7DAB3953E73AABDA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		842544611BD479C3006DA6B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				842544601BD479C3006DA6B4 /* Kgag - iOS.app */,
+				842544791BD479C3006DA6B4 /* Kgag - iOSTests.xctest */,
+				842544841BD479C3006DA6B4 /* Kgag - iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		842544621BD479C3006DA6B4 /* Kgag - iOS */ = {
+			isa = PBXGroup;
+			children = (
+				845560391BD5DF340068D72D /* KGAddGagViewController.h */,
+				8455603A1BD5DF340068D72D /* KGAddGagViewController.m */,
+				8455602E1BD5C90A0068D72D /* KGGagCell.h */,
+				8455602F1BD5C90A0068D72D /* KGGagCell.m */,
+				845560301BD5C90A0068D72D /* KGGagCell.xib */,
+				842544FD1BD4EC7C006DA6B4 /* KGTopViewController.h */,
+				842544FE1BD4EC7C006DA6B4 /* KGTopViewController.m */,
+				842544FA1BD4E843006DA6B4 /* KGRootViewController.h */,
+				842544FB1BD4E843006DA6B4 /* KGRootViewController.m */,
+				842544D11BD48655006DA6B4 /* KGRegisterViewController.h */,
+				842544D21BD48655006DA6B4 /* KGRegisterViewController.m */,
+				842544CE1BD47D32006DA6B4 /* KGLoginViewController.h */,
+				842544CF1BD47D32006DA6B4 /* KGLoginViewController.m */,
+				842544CD1BD47BEC006DA6B4 /* Utilities */,
+				842544A01BD47BAD006DA6B4 /* Model */,
+				8425449F1BD47BA0006DA6B4 /* RequestManager */,
+				842544981BD47AD9006DA6B4 /* StoryBoard */,
+				842544661BD479C3006DA6B4 /* AppDelegate.h */,
+				842544671BD479C3006DA6B4 /* AppDelegate.m */,
+				842544691BD479C3006DA6B4 /* ViewController.h */,
+				8425446A1BD479C3006DA6B4 /* ViewController.m */,
+				8425446F1BD479C3006DA6B4 /* Assets.xcassets */,
+				842544711BD479C3006DA6B4 /* LaunchScreen.storyboard */,
+				842544741BD479C3006DA6B4 /* Info.plist */,
+				842544631BD479C3006DA6B4 /* Supporting Files */,
+			);
+			path = "Kgag - iOS";
+			sourceTree = "<group>";
+		};
+		842544631BD479C3006DA6B4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				842544641BD479C3006DA6B4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8425447C1BD479C3006DA6B4 /* Kgag - iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				8425447D1BD479C3006DA6B4 /* Kgag___iOSTests.m */,
+				8425447F1BD479C3006DA6B4 /* Info.plist */,
+			);
+			path = "Kgag - iOSTests";
+			sourceTree = "<group>";
+		};
+		842544871BD479C3006DA6B4 /* Kgag - iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				842544881BD479C3006DA6B4 /* Kgag___iOSUITests.m */,
+				8425448A1BD479C3006DA6B4 /* Info.plist */,
+			);
+			path = "Kgag - iOSUITests";
+			sourceTree = "<group>";
+		};
+		842544981BD47AD9006DA6B4 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				8425446C1BD479C3006DA6B4 /* Main.storyboard */,
+				842544961BD47AD6006DA6B4 /* login.storyboard */,
+			);
+			name = StoryBoard;
+			sourceTree = "<group>";
+		};
+		8425449F1BD47BA0006DA6B4 /* RequestManager */ = {
+			isa = PBXGroup;
+			children = (
+				842545091BD4ED84006DA6B4 /* Gag */,
+				842544F81BD4E209006DA6B4 /* User */,
+				842544EC1BD4E1FB006DA6B4 /* KGAPIRequestManager.h */,
+				842544ED1BD4E1FB006DA6B4 /* KGAPIRequestManager.m */,
+				842544EE1BD4E1FB006DA6B4 /* KGPageManager.h */,
+				842544EF1BD4E1FB006DA6B4 /* KGPageManager.m */,
+				842544F01BD4E1FB006DA6B4 /* KGURLConnectManager.h */,
+				842544F11BD4E1FB006DA6B4 /* KGURLConnectManager.m */,
+			);
+			name = RequestManager;
+			sourceTree = "<group>";
+		};
+		842544A01BD47BAD006DA6B4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				842545061BD4ED0C006DA6B4 /* KGGag.h */,
+				842545071BD4ED0C006DA6B4 /* KGGag.m */,
+				842544E91BD4E04F006DA6B4 /* KGUser.h */,
+				842544EA1BD4E04F006DA6B4 /* KGUser.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		842544CD1BD47BEC006DA6B4 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				842544F91BD4E3A0006DA6B4 /* KGURLPath.h */,
+				8425450A1BD4ED8F006DA6B4 /* TableViewCell */,
+				842544A91BD47BDA006DA6B4 /* KGObjectKeys.h */,
+				842544AC1BD47BDA006DA6B4 /* KGPrefixHeader.pch */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		842544F81BD4E209006DA6B4 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				842544F21BD4E1FB006DA6B4 /* KGUserRequestManager.h */,
+				842544F31BD4E1FB006DA6B4 /* KGUserRequestManager.m */,
+			);
+			name = User;
+			sourceTree = "<group>";
+		};
+		842545091BD4ED84006DA6B4 /* Gag */ = {
+			isa = PBXGroup;
+			children = (
+				842545001BD4ECC5006DA6B4 /* KGGagRequestManager.h */,
+				842545011BD4ECC5006DA6B4 /* KGGagRequestManager.m */,
+			);
+			name = Gag;
+			sourceTree = "<group>";
+		};
+		8425450A1BD4ED8F006DA6B4 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				842545031BD4ECF2006DA6B4 /* KGTableViewCell.h */,
+				842545041BD4ECF2006DA6B4 /* KGTableViewCell.m */,
+			);
+			name = TableViewCell;
+			sourceTree = "<group>";
+		};
+		AB5AC932915AC70010242B29 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F9878289265D66B0F93CEBA9 /* Pods-Kgag - iOS.debug.xcconfig */,
+				1F8908F954D2F67B341E0391 /* Pods-Kgag - iOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8425445F1BD479C3006DA6B4 /* Kgag - iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8425448D1BD479C3006DA6B4 /* Build configuration list for PBXNativeTarget "Kgag - iOS" */;
+			buildPhases = (
+				B8788898FC0FBA5C564C1AE4 /* Check Pods Manifest.lock */,
+				8425445C1BD479C3006DA6B4 /* Sources */,
+				8425445D1BD479C3006DA6B4 /* Frameworks */,
+				8425445E1BD479C3006DA6B4 /* Resources */,
+				CDA3D6EAF618B8CD4AA17B2F /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kgag - iOS";
+			productName = "Kgag - iOS";
+			productReference = 842544601BD479C3006DA6B4 /* Kgag - iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		842544781BD479C3006DA6B4 /* Kgag - iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 842544901BD479C3006DA6B4 /* Build configuration list for PBXNativeTarget "Kgag - iOSTests" */;
+			buildPhases = (
+				842544751BD479C3006DA6B4 /* Sources */,
+				842544761BD479C3006DA6B4 /* Frameworks */,
+				842544771BD479C3006DA6B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8425447B1BD479C3006DA6B4 /* PBXTargetDependency */,
+			);
+			name = "Kgag - iOSTests";
+			productName = "Kgag - iOSTests";
+			productReference = 842544791BD479C3006DA6B4 /* Kgag - iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		842544831BD479C3006DA6B4 /* Kgag - iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 842544931BD479C3006DA6B4 /* Build configuration list for PBXNativeTarget "Kgag - iOSUITests" */;
+			buildPhases = (
+				842544801BD479C3006DA6B4 /* Sources */,
+				842544811BD479C3006DA6B4 /* Frameworks */,
+				842544821BD479C3006DA6B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				842544861BD479C3006DA6B4 /* PBXTargetDependency */,
+			);
+			name = "Kgag - iOSUITests";
+			productName = "Kgag - iOSUITests";
+			productReference = 842544841BD479C3006DA6B4 /* Kgag - iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		842544581BD479C3006DA6B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "L Company";
+				TargetAttributes = {
+					8425445F1BD479C3006DA6B4 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 7JEEBJWANU;
+					};
+					842544781BD479C3006DA6B4 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 8425445F1BD479C3006DA6B4;
+					};
+					842544831BD479C3006DA6B4 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 8425445F1BD479C3006DA6B4;
+					};
+				};
+			};
+			buildConfigurationList = 8425445B1BD479C3006DA6B4 /* Build configuration list for PBXProject "Kgag - iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 842544571BD479C3006DA6B4;
+			productRefGroup = 842544611BD479C3006DA6B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8425445F1BD479C3006DA6B4 /* Kgag - iOS */,
+				842544781BD479C3006DA6B4 /* Kgag - iOSTests */,
+				842544831BD479C3006DA6B4 /* Kgag - iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8425445E1BD479C3006DA6B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				842544971BD47AD6006DA6B4 /* login.storyboard in Resources */,
+				842544731BD479C3006DA6B4 /* LaunchScreen.storyboard in Resources */,
+				842544701BD479C3006DA6B4 /* Assets.xcassets in Resources */,
+				8425446E1BD479C3006DA6B4 /* Main.storyboard in Resources */,
+				845560321BD5C90A0068D72D /* KGGagCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		842544771BD479C3006DA6B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		842544821BD479C3006DA6B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B8788898FC0FBA5C564C1AE4 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CDA3D6EAF618B8CD4AA17B2F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kgag - iOS/Pods-Kgag - iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8425445C1BD479C3006DA6B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				842544D01BD47D32006DA6B4 /* KGLoginViewController.m in Sources */,
+				842544D31BD48655006DA6B4 /* KGRegisterViewController.m in Sources */,
+				8425446B1BD479C3006DA6B4 /* ViewController.m in Sources */,
+				842545081BD4ED0C006DA6B4 /* KGGag.m in Sources */,
+				842544FC1BD4E843006DA6B4 /* KGRootViewController.m in Sources */,
+				842545021BD4ECC5006DA6B4 /* KGGagRequestManager.m in Sources */,
+				842545051BD4ECF2006DA6B4 /* KGTableViewCell.m in Sources */,
+				845560311BD5C90A0068D72D /* KGGagCell.m in Sources */,
+				842544FF1BD4EC7C006DA6B4 /* KGTopViewController.m in Sources */,
+				842544681BD479C3006DA6B4 /* AppDelegate.m in Sources */,
+				842544F61BD4E1FB006DA6B4 /* KGURLConnectManager.m in Sources */,
+				842544F51BD4E1FB006DA6B4 /* KGPageManager.m in Sources */,
+				842544F41BD4E1FB006DA6B4 /* KGAPIRequestManager.m in Sources */,
+				842544EB1BD4E04F006DA6B4 /* KGUser.m in Sources */,
+				842544F71BD4E1FB006DA6B4 /* KGUserRequestManager.m in Sources */,
+				842544651BD479C3006DA6B4 /* main.m in Sources */,
+				8455603B1BD5DF340068D72D /* KGAddGagViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		842544751BD479C3006DA6B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8425447E1BD479C3006DA6B4 /* Kgag___iOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		842544801BD479C3006DA6B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				842544891BD479C3006DA6B4 /* Kgag___iOSUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8425447B1BD479C3006DA6B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8425445F1BD479C3006DA6B4 /* Kgag - iOS */;
+			targetProxy = 8425447A1BD479C3006DA6B4 /* PBXContainerItemProxy */;
+		};
+		842544861BD479C3006DA6B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8425445F1BD479C3006DA6B4 /* Kgag - iOS */;
+			targetProxy = 842544851BD479C3006DA6B4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8425446C1BD479C3006DA6B4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8425446D1BD479C3006DA6B4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		842544711BD479C3006DA6B4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				842544721BD479C3006DA6B4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8425448B1BD479C3006DA6B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8425448C1BD479C3006DA6B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8425448E1BD479C3006DA6B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9878289265D66B0F93CEBA9 /* Pods-Kgag - iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Kgag - iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "iYugyogMo.Kgag---iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		8425448F1BD479C3006DA6B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F8908F954D2F67B341E0391 /* Pods-Kgag - iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Kgag - iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "iYugyogMo.Kgag---iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		842544911BD479C3006DA6B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Kgag - iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "iYugyogMo.Kgag---iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kgag - iOS.app/Kgag - iOS";
+			};
+			name = Debug;
+		};
+		842544921BD479C3006DA6B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Kgag - iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "iYugyogMo.Kgag---iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kgag - iOS.app/Kgag - iOS";
+			};
+			name = Release;
+		};
+		842544941BD479C3006DA6B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Kgag - iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "iYugyogMo.Kgag---iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Kgag - iOS";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		842544951BD479C3006DA6B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Kgag - iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "iYugyogMo.Kgag---iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Kgag - iOS";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8425445B1BD479C3006DA6B4 /* Build configuration list for PBXProject "Kgag - iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8425448B1BD479C3006DA6B4 /* Debug */,
+				8425448C1BD479C3006DA6B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8425448D1BD479C3006DA6B4 /* Build configuration list for PBXNativeTarget "Kgag - iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8425448E1BD479C3006DA6B4 /* Debug */,
+				8425448F1BD479C3006DA6B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		842544901BD479C3006DA6B4 /* Build configuration list for PBXNativeTarget "Kgag - iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				842544911BD479C3006DA6B4 /* Debug */,
+				842544921BD479C3006DA6B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		842544931BD479C3006DA6B4 /* Build configuration list for PBXNativeTarget "Kgag - iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				842544941BD479C3006DA6B4 /* Debug */,
+				842544951BD479C3006DA6B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 842544581BD479C3006DA6B4 /* Project object */;
+}

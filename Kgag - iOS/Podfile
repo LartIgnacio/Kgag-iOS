@@ -1,0 +1,12 @@
+# Uncomment this line to define a global platform for your project
+ platform :ios, ‘7.0’
+
+target 'Kgag - iOS' do
+    
+    pod 'AFNetworking', '2.5.2'
+    pod 'SVPullToRefreshImprove'
+    pod 'CZPhotoPickerController'
+    pod 'UIActivityIndicator-for-SDWebImage', '1.2'
+    
+end
+
