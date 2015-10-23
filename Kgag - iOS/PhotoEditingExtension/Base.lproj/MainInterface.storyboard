@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="ObA-dk-sSI">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Photo Editing View Controller-->
+        <scene sceneID="7MM-of-jgj">
+            <objects>
+                <viewController id="ObA-dk-sSI" customClass="PhotoEditingViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="qkL-Od-lgU"/>
+                        <viewControllerLayoutGuide type="bottom" id="n38-gi-rB5"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="zMn-AG-sqS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="528"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" tag="1" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="7aQ-9F-6w1">
+                                <rect key="frame" x="9" y="456" width="302" height="29"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="302" id="cfI-PL-Dv3"/>
+                                    <constraint firstAttribute="height" constant="28" id="nXh-Cs-pZu"/>
+                                </constraints>
+                                <segments>
+                                    <segment title="UpMirrored"/>
+                                    <segment title="DownMirrored"/>
+                                    <segment title="LeftMirrored"/>
+                                    <segment title="RightMirrored"/>
+                                </segments>
+                                <connections>
+                                    <action selector="segmentedControlSwitch:" destination="ObA-dk-sSI" eventType="valueChanged" id="FXQ-Ya-lOo"/>
+                                </connections>
+                            </segmentedControl>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gVl-ge-wot">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="399"/>
+                                <animations/>
+                            </imageView>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="RwX-Dl-26h">
+                                <rect key="frame" x="9" y="420" width="302" height="29"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="28" id="GdN-uh-gDe"/>
+                                    <constraint firstAttribute="width" constant="302" id="uV7-8G-0Az"/>
+                                </constraints>
+                                <segments>
+                                    <segment title="Up"/>
+                                    <segment title="Down"/>
+                                    <segment title="Left"/>
+                                    <segment title="Right"/>
+                                </segments>
+                                <connections>
+                                    <action selector="segmentedControlSwitch:" destination="ObA-dk-sSI" eventType="valueChanged" id="4hI-9m-hF7"/>
+                                </connections>
+                            </segmentedControl>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="gVl-ge-wot" secondAttribute="trailing" constant="-20" id="0wz-F1-ME9"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="7aQ-9F-6w1" secondAttribute="trailing" constant="-11" id="1Zk-Kw-IqG"/>
+                            <constraint firstItem="RwX-Dl-26h" firstAttribute="top" secondItem="gVl-ge-wot" secondAttribute="bottom" constant="21" id="4Iv-hJ-X8F"/>
+                            <constraint firstItem="gVl-ge-wot" firstAttribute="top" secondItem="zMn-AG-sqS" secondAttribute="topMargin" id="9Yj-7t-yMb"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="RwX-Dl-26h" secondAttribute="trailing" constant="-11" id="CPP-el-Yic"/>
+                            <constraint firstItem="RwX-Dl-26h" firstAttribute="leading" secondItem="zMn-AG-sqS" secondAttribute="leadingMargin" constant="-11" id="HzT-SN-S3A"/>
+                            <constraint firstItem="7aQ-9F-6w1" firstAttribute="top" secondItem="RwX-Dl-26h" secondAttribute="bottom" constant="8" id="PM9-yh-25u"/>
+                            <constraint firstItem="RwX-Dl-26h" firstAttribute="top" secondItem="gVl-ge-wot" secondAttribute="bottom" constant="21" id="POy-JB-0NQ"/>
+                            <constraint firstItem="gVl-ge-wot" firstAttribute="leading" secondItem="zMn-AG-sqS" secondAttribute="leadingMargin" constant="-20" id="Usw-nG-hF3"/>
+                            <constraint firstItem="n38-gi-rB5" firstAttribute="top" secondItem="7aQ-9F-6w1" secondAttribute="bottom" constant="44" id="axK-pm-Frq"/>
+                            <constraint firstItem="7aQ-9F-6w1" firstAttribute="leading" secondItem="zMn-AG-sqS" secondAttribute="leadingMargin" constant="-11" id="qHv-ly-QDF"/>
+                            <constraint firstItem="7aQ-9F-6w1" firstAttribute="top" secondItem="RwX-Dl-26h" secondAttribute="bottom" constant="8" id="ylx-PV-hnS"/>
+                        </constraints>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="528"/>
+                    <connections>
+                        <outlet property="imageView" destination="gVl-ge-wot" id="4WP-K5-Iea"/>
+                        <outlet property="segmentedControl1" destination="RwX-Dl-26h" id="G3D-Bf-Fnq"/>
+                        <outlet property="segmentedControl2" destination="7aQ-9F-6w1" id="pX5-Jw-OFO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="X47-rx-isc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="326" y="-128"/>
+        </scene>
+    </scenes>
+</document>

@@ -31,6 +31,11 @@
 		845560311BD5C90A0068D72D /* KGGagCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8455602F1BD5C90A0068D72D /* KGGagCell.m */; settings = {ASSET_TAGS = (); }; };
 		845560321BD5C90A0068D72D /* KGGagCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 845560301BD5C90A0068D72D /* KGGagCell.xib */; settings = {ASSET_TAGS = (); }; };
 		8455603B1BD5DF340068D72D /* KGAddGagViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8455603A1BD5DF340068D72D /* KGAddGagViewController.m */; settings = {ASSET_TAGS = (); }; };
+		84895F2C1BD9E448005CF63A /* PhotosUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84895F2B1BD9E448005CF63A /* PhotosUI.framework */; settings = {ASSET_TAGS = (); }; };
+		84895F2E1BD9E448005CF63A /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84895F2D1BD9E448005CF63A /* Photos.framework */; settings = {ASSET_TAGS = (); }; };
+		84895F321BD9E448005CF63A /* PhotoEditingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84895F311BD9E448005CF63A /* PhotoEditingViewController.m */; };
+		84895F351BD9E448005CF63A /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84895F331BD9E448005CF63A /* MainInterface.storyboard */; };
+		84895F391BD9E448005CF63A /* PhotoEditingExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 84895F2A1BD9E448005CF63A /* PhotoEditingExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		EB347579842F8B37CFE2A69E /* libPods-Kgag - iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2586FB7E737D58BAFAEEA2AC /* libPods-Kgag - iOS.a */; };
 /* End PBXBuildFile section */
 
@@ -49,7 +54,28 @@
 			remoteGlobalIDString = 8425445F1BD479C3006DA6B4;
 			remoteInfo = "Kgag - iOS";
 		};
+		84895F371BD9E448005CF63A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 842544581BD479C3006DA6B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84895F291BD9E448005CF63A;
+			remoteInfo = PhotoEditingExtension;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		84895F3D1BD9E448005CF63A /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				84895F391BD9E448005CF63A /* PhotoEditingExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1F8908F954D2F67B341E0391 /* Pods-Kgag - iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kgag - iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-Kgag - iOS/Pods-Kgag - iOS.release.xcconfig"; sourceTree = "<group>"; };
@@ -106,6 +132,13 @@
 		845560371BD5CCDB0068D72D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		845560391BD5DF340068D72D /* KGAddGagViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGAddGagViewController.h; sourceTree = "<group>"; };
 		8455603A1BD5DF340068D72D /* KGAddGagViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGAddGagViewController.m; sourceTree = "<group>"; };
+		84895F2A1BD9E448005CF63A /* PhotoEditingExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = PhotoEditingExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		84895F2B1BD9E448005CF63A /* PhotosUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PhotosUI.framework; path = System/Library/Frameworks/PhotosUI.framework; sourceTree = SDKROOT; };
+		84895F2D1BD9E448005CF63A /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		84895F301BD9E448005CF63A /* PhotoEditingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoEditingViewController.h; sourceTree = "<group>"; };
+		84895F311BD9E448005CF63A /* PhotoEditingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoEditingViewController.m; sourceTree = "<group>"; };
+		84895F341BD9E448005CF63A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		84895F361BD9E448005CF63A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F9878289265D66B0F93CEBA9 /* Pods-Kgag - iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kgag - iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Kgag - iOS/Pods-Kgag - iOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -132,6 +165,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		84895F271BD9E448005CF63A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84895F2C1BD9E448005CF63A /* PhotosUI.framework in Frameworks */,
+				84895F2E1BD9E448005CF63A /* Photos.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -142,6 +184,8 @@
 				845560351BD5CCB70068D72D /* CoreFoundation.framework */,
 				845560331BD5CC9D0068D72D /* AVFoundation.framework */,
 				2586FB7E737D58BAFAEEA2AC /* libPods-Kgag - iOS.a */,
+				84895F2B1BD9E448005CF63A /* PhotosUI.framework */,
+				84895F2D1BD9E448005CF63A /* Photos.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -152,6 +196,7 @@
 				842544621BD479C3006DA6B4 /* Kgag - iOS */,
 				8425447C1BD479C3006DA6B4 /* Kgag - iOSTests */,
 				842544871BD479C3006DA6B4 /* Kgag - iOSUITests */,
+				84895F2F1BD9E448005CF63A /* PhotoEditingExtension */,
 				842544611BD479C3006DA6B4 /* Products */,
 				AB5AC932915AC70010242B29 /* Pods */,
 				35550DEE7DAB3953E73AABDA /* Frameworks */,
@@ -164,6 +209,7 @@
 				842544601BD479C3006DA6B4 /* Kgag - iOS.app */,
 				842544791BD479C3006DA6B4 /* Kgag - iOSTests.xctest */,
 				842544841BD479C3006DA6B4 /* Kgag - iOSUITests.xctest */,
+				84895F2A1BD9E448005CF63A /* PhotoEditingExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -299,6 +345,17 @@
 			name = TableViewCell;
 			sourceTree = "<group>";
 		};
+		84895F2F1BD9E448005CF63A /* PhotoEditingExtension */ = {
+			isa = PBXGroup;
+			children = (
+				84895F301BD9E448005CF63A /* PhotoEditingViewController.h */,
+				84895F311BD9E448005CF63A /* PhotoEditingViewController.m */,
+				84895F331BD9E448005CF63A /* MainInterface.storyboard */,
+				84895F361BD9E448005CF63A /* Info.plist */,
+			);
+			path = PhotoEditingExtension;
+			sourceTree = "<group>";
+		};
 		AB5AC932915AC70010242B29 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -320,10 +377,12 @@
 				8425445D1BD479C3006DA6B4 /* Frameworks */,
 				8425445E1BD479C3006DA6B4 /* Resources */,
 				CDA3D6EAF618B8CD4AA17B2F /* Copy Pods Resources */,
+				84895F3D1BD9E448005CF63A /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				84895F381BD9E448005CF63A /* PBXTargetDependency */,
 			);
 			name = "Kgag - iOS";
 			productName = "Kgag - iOS";
@@ -366,6 +425,23 @@
 			productReference = 842544841BD479C3006DA6B4 /* Kgag - iOSUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		84895F291BD9E448005CF63A /* PhotoEditingExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84895F3C1BD9E448005CF63A /* Build configuration list for PBXNativeTarget "PhotoEditingExtension" */;
+			buildPhases = (
+				84895F261BD9E448005CF63A /* Sources */,
+				84895F271BD9E448005CF63A /* Frameworks */,
+				84895F281BD9E448005CF63A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotoEditingExtension;
+			productName = PhotoEditingExtension;
+			productReference = 84895F2A1BD9E448005CF63A /* PhotoEditingExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -387,6 +463,10 @@
 						CreatedOnToolsVersion = 7.0.1;
 						TestTargetID = 8425445F1BD479C3006DA6B4;
 					};
+					84895F291BD9E448005CF63A = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 7JEEBJWANU;
+					};
 				};
 			};
 			buildConfigurationList = 8425445B1BD479C3006DA6B4 /* Build configuration list for PBXProject "Kgag - iOS" */;
@@ -405,6 +485,7 @@
 				8425445F1BD479C3006DA6B4 /* Kgag - iOS */,
 				842544781BD479C3006DA6B4 /* Kgag - iOSTests */,
 				842544831BD479C3006DA6B4 /* Kgag - iOSUITests */,
+				84895F291BD9E448005CF63A /* PhotoEditingExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -433,6 +514,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84895F281BD9E448005CF63A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84895F351BD9E448005CF63A /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -512,6 +601,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		84895F261BD9E448005CF63A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84895F321BD9E448005CF63A /* PhotoEditingViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -524,6 +621,11 @@
 			isa = PBXTargetDependency;
 			target = 8425445F1BD479C3006DA6B4 /* Kgag - iOS */;
 			targetProxy = 842544851BD479C3006DA6B4 /* PBXContainerItemProxy */;
+		};
+		84895F381BD9E448005CF63A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84895F291BD9E448005CF63A /* PhotoEditingExtension */;
+			targetProxy = 84895F371BD9E448005CF63A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -542,6 +644,14 @@
 				842544721BD479C3006DA6B4 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		84895F331BD9E448005CF63A /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84895F341BD9E448005CF63A /* Base */,
+			);
+			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -709,6 +819,34 @@
 			};
 			name = Release;
 		};
+		84895F3A1BD9E448005CF63A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = PhotoEditingExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "iYugyogMo.Kgag---iOS.PhotoEditingExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		84895F3B1BD9E448005CF63A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = PhotoEditingExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "iYugyogMo.Kgag---iOS.PhotoEditingExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -747,6 +885,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		84895F3C1BD9E448005CF63A /* Build configuration list for PBXNativeTarget "PhotoEditingExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84895F3A1BD9E448005CF63A /* Debug */,
+				84895F3B1BD9E448005CF63A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
