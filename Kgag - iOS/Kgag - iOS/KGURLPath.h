@@ -7,8 +7,7 @@
 //
 
 //#define urlMainPath                      @"http://10.3.140.75/kgag/public/"
-//
-#define urlPhotoPath                     @"http://10.3.140.75/kgag/storage/app/"
+//#define urlPhotoPath                     @"http://10.3.140.75/kgag/storage/app/"
 #define urlMainPath                      @"http://localhost/kgag/public/"
 #define urlPhotoPath                     @"http://localhost/kgag/storage/app/"
 

@@ -89,6 +89,7 @@
                 <outlet property="dateCreatedLabel" destination="r65-zM-LJ2" id="sXY-xB-EKR"/>
                 <outlet property="gagImageView" destination="xZd-Zj-4uG" id="Xw2-ti-6nM"/>
                 <outlet property="textView" destination="qG7-h8-YH2" id="dg2-lt-Mg8"/>
+                <outlet property="userNameLabel" destination="NGN-9K-evW" id="5DI-wB-H8a"/>
             </connections>
             <point key="canvasLocation" x="231" y="256.5"/>
         </tableViewCell>

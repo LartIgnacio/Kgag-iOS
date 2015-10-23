@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "KGUser.h"
 
 @interface KGGag : NSObject
 
@@ -14,6 +15,7 @@
 @property NSString *message;
 @property NSString *urlString;
 @property NSString *dateCreated;
+@property KGUser *user;
 
 - (id)initWithDictionary:(NSDictionary *)dictionary;
 

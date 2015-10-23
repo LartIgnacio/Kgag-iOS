@@ -23,6 +23,9 @@
         NSDictionary *uploadDictionary = [dictionary objectForKey:@"upload"];
         self.urlString = [NSString stringWithFormat:@"%@%@", urlPhotoPath, [uploadDictionary objectForKey:@"path"]];
         self.dateCreated = [uploadDictionary objectForKey:@"created_at"];
+        
+        NSDictionary *userDictionary = [dictionary objectForKey:@"User"];
+        self.user = [[KGUser alloc] initWithDictionary:userDictionary];
     }
     
     return self;

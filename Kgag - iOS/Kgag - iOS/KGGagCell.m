@@ -13,6 +13,7 @@
 
 - (void)setGagCell:(KGGag *)gag
 {
+    self.userNameLabel.text = gag.user.userName;
     self.textView.text = gag.message;
     [self.gagImageView setImageWithURL:[NSURL URLWithString:gag.urlString] usingActivityIndicatorStyle:UIActivityIndicatorViewStyleWhite];
     self.dateCreatedLabel.text = gag.dateCreated;

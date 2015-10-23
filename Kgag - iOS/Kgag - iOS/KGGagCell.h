@@ -12,6 +12,7 @@
 
 @interface KGGagCell : KGTableViewCell
 
+@property (strong, nonatomic) IBOutlet UILabel *userNameLabel;
 @property (strong, nonatomic) IBOutlet UITextView *textView;
 @property (strong, nonatomic) IBOutlet UIImageView *gagImageView;
 @property (strong, nonatomic) IBOutlet UILabel *dateCreatedLabel;
